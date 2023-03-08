@@ -197,7 +197,7 @@ section#highlights ul {
   color: #999999;
 }
 section#features {
-  background-image: url(../img/samples/bk-bl.jpg);
+  background-image: url(../img/samples/bk-or.jpg);
   padding: 50px 0 0 0 !important;
   background-attachment: fixed;
   text-align: left;
@@ -315,14 +315,15 @@ section#testimonials #testimonials-carousel .item p {
   padding: 0 50px;
   text-align: center;
   font-size: 16px;
+  margin-top: 10px;
 }
 section#testimonials #testimonials-carousel .item .author {
   position: relative;
-  color: #999999;
+  color: #ffffff;
 }
-section#testimonials #testimonials-carousel .item .author h5 {
+section#testimonials #testimonials-carousel .item .author h2 {
   text-transform: uppercase;
-  color: #8c8c8c;
+  color: #ffffff;
   margin-bottom: 1px;
 }
 section#testimonials #testimonials-carousel .item .author p {
@@ -331,7 +332,6 @@ section#testimonials #testimonials-carousel .item .author p {
   font-size: 14px;
 }
 section#testimonials #testimonials-carousel .item .author:before {
-  content: "____";
   position: absolute;
   top: -10px;
   left: -40px;
@@ -343,7 +343,7 @@ section#testimonials #testimonials-carousel .carousel-control {
   color: #bfbfbf;
 }
 section#buyNow {
-  background-image: url(../img/samples/bk-bl.jpg);
+  background-image: url(../img/samples/bk-or.jpg);
   background-attachment: fixed;
   padding: 65px 0;
 }
@@ -1054,8 +1054,12 @@ footer#site-footer a img.top {
   color: #22a3df;
 }
 .section-heading h4 {
-  color: #555555;
+  color: #ffffff;
   line-height: 22px;
+  padding-top: 10px;
+}
+.section-heading h2 {
+  color: #ffffff;
 }
 .section-heading i {
   color: #d9d9d9;
